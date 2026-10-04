@@ -59,8 +59,8 @@ I wrote a Python pipeline that pulls **26 development indicators** from the publ
 | **Region slicer** | Filters every visual in the report by World Bank region |
 | **Average of indicators over time** | Year-by-year trends for internet use, mobile subscriptions, GDP growth, unemployment, forest area and renewable energy |
 | **Health indicators by region** | Column chart comparing regions, from Sub-Saharan Africa to Europe & Central Asia |
-| **🐍 Relationship between health indicators** | Seaborn correlation heatmap, written in Python and embedded directly in Power BI |
-| **🐍 Life expectancy vs. healthcare expenditure** | Seaborn regression plot with a trend line |
+| **Relationship between health indicators** | Seaborn correlation heatmap, written in Python and embedded directly in Power BI |
+| **Life expectancy vs. healthcare expenditure** | Seaborn regression plot with a trend line |
 | **Top 10 / Bottom 10 by poverty reduction** | Countries ranked by change in poverty headcount (custom DAX measure) |
 | **Animated scatter plots** | Internet penetration vs. youth unemployment and vs. childhood immunisation, with a play axis from 2016 to 2025 |
 
@@ -110,7 +110,8 @@ A full catalogue of **29,000+ World Bank indicator codes** was also scraped and 
 ## 📁 Repository Structure
 
 ```
-world-development-indicators-dashboard/
+
+wdi-analytics-dashboard/
 ├── dashboard/
 │   └── World_Indicators_Dashboard.pbix     # Power BI report
 ├── data/raw/
@@ -133,8 +134,9 @@ world-development-indicators-dashboard/
 
 ```bash
 # 1. Clone
-git clone https://github.com/<your-username>/world-development-indicators-dashboard.git
-cd world-development-indicators-dashboard
+git clone https://github.com/<your-username>/wdi-analytics-dashboard.git
+cd wdi-analytics-dashboard
+
 
 # 2. Install dependencies
 pip install -r requirements.txt
