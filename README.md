@@ -163,8 +163,8 @@ python scripts/fetch_worldbank_data.py
 
 ## 👤 Author
 
-**Prince Raj**
-📧 spunkyiitj@gmail.com 
+**Himanshu Meena**
+📧 iitjhm2022@gmail.com 
 
 ⭐ *If you found this project useful, consider giving it a star!*
 
