@@ -134,7 +134,7 @@ wdi-analytics-dashboard/
 
 ```bash
 # 1. Clone
-git clone https://github.com/<your-username>/wdi-analytics-dashboard.git
+git clone https://github.com/Him1445/wdi-analytics-dashboard.git
 cd wdi-analytics-dashboard
 
 
